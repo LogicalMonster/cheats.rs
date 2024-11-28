@@ -1,58 +1,54 @@
+# ![Logo](/static/logo.png) Rust 语言备忘单(中文翻译)
 
-
-# ![Logo](/static/logo.png) Rust Language Cheat Sheet
-
-[![Read Online](/gfx/button_read-online2.png)](https://cheats.rs)
+[![在线阅读](/gfx/button_read-online2.png)](https://cheats.rs)
 [![PDF](/gfx/button_cached-pdf2.png)](https://cheats.rs/dl/rust_cheat_sheet_a4.pdf)
 
-**A single-page Rust resource for people who like high information density.**
+**适合喜欢高信息密度的人的单页 Rust 资源。**
 
-Use cases, in order of priority:
-* **identification & lookup guide** for constructs encountered in code,
-* **discover** parts of the language you might not know,
-* **learn about Rust** if you have prior programming experience.
+用例，按优先级排序：
+* 代码中遇到的构造的 **识别和查找指南**，
+* **发现**您可能不知道的语言部分，
+* **了解 Rust**（如果您有编程经验）。
 
+# 翻译声明
+翻译为GPT机翻，原项目由 ralfbiedert 及其贡献者们创建和维护。主页见public/index.html, 请克隆后查看。也可使用Zola构建修改。
 
-# Building
+原始英文版本仓库地址：https://github.com/ralfbiedert/cheats.rs。
 
-Built with [Zola](https://www.getzola.org/), the static site generator written in Rust. See [`.zolaversion`](.zolaversion) for the exact version the official site was deployed with. To develop locally download the indicated version, then run:
+# 构建
+
+使用 [Zola](https://www.getzola.org/) 构建，这是一个用 Rust 编写的静态站点生成器。请参阅 [`.zolaversion`](.zolaversion) 了解官方网站部署的确切版本。要在本地开发，请下载指定版本，然后运行：
 
 ```
 zola serve
 ```
 
+# 贡献
 
+欢迎贡献，您可以直接 PR 修复错误。如果您不知何故来到了这里，但不想使用 Github，请写信给 [webmaster@cheats.rs](mailto:webmaster@cheats.rs)，或使用现场按钮。
 
-# Contributing
+建设性的反馈最可行，但如果您只是想发泄您的沮丧，那也没关系 :)
 
-Contributions are welcome and you can PR bug fixes directly. If you somehow ended up here but prefer not to use Github write to [webmaster@cheats.rs](mailto:webmaster@cheats.rs), or use the on-site buttons.
+# 致谢
 
-Constructive feedback would be most actionable, but if you just want to vent your frustration that's fine too :)
+大声感谢 [所有贡献者](https://github.com/ralfbiedert/cheats.rs/graphs/contributors) 和提交 [问题](https://github.com/ralfbiedert/cheats.rs/issues) 和 [拉取请求](https://github.com/ralfbiedert/cheats.rs/pulls) 的人，他们太棒了！
 
+另外：
 
-# Credits
-
-Big shout-out to [all the contributors](https://github.com/ralfbiedert/cheats.rs/graphs/contributors) and people filing [issues](https://github.com/ralfbiedert/cheats.rs/issues) and [pull requests](https://github.com/ralfbiedert/cheats.rs/pulls) for being awesome!
-
-
-Also:
-
-* The Bronshtein and Semendyayev _Handbook of Mathematics_, the mother of all cheat sheets
-* [The Book](https://doc.rust-lang.org/stable/book/) (some tables)
-* [Idiomatic Rust Libraries](https://killercup.github.io/rustfest-idiomatic-libs/#/) (idiomatic Rust)
-* [Ferris](https://rustacean.net/) (Rust mascot by Karen Rustad Tölva)
-* [Rust container cheat sheet](https://docs.google.com/presentation/d/1q-c7UAyrUlM-eZyTo1pd8SZ0qwA_wYxmPZVOQkoDmH4/edit#slide=id.p) (for data layout; Raph Levien)
-* That one IEEE 754-2008 Powerpoint deck I can't find anymore ...
-* [String Conversions](https://docs.google.com/spreadsheets/d/19vSPL6z2d50JlyzwxariaYD6EU2QQUQqIDOGbiGQC7Y/pubhtml?gid=0&single=true)
-* steffahn from users.rust-lang.org (for outstanding explanations)
-* eddyb for feedback and explanations
-
+* Bronshtein 和 Semendyayev 的《数学手册》，所有备忘单之母
+* [这本书](https://doc.rust-lang.org/stable/book/)（一些表格）
+* [惯用的 Rust 库](https://killercup.github.io/rustfest-idiomatic-libs/#/)（惯用的 Rust）
+* [Ferris](https://rustacean.net/)（Karen Rustad Tölva 设计的 Rust 吉祥物）
+* [Rust 容器备忘单](https://docs.google.com/presentation/d/1q-c7UAyrUlM-eZyTo1pd8SZ0qwA_wYxmPZVOQkoDmH4/edit#slide=id.p)（用于数据布局；Raph Levien）
+* 我再也找不到那个 IEEE 754-2008 Powerpoint 演示文稿了...
+* [字符串转换](https://docs.google.com/spreadsheets/d/19vSPL6z2d50JlyzwxariaYD6EU2QQUQqIDOGbiGQC7Y/pubhtml?gid=0&single=true)
+* 来自 users.rust-lang.org 的 steffahn（提供出色的解释）
+* eddyb 提供反馈和解释
 
 # FAQ
 
-Answers to frequently asked questions can [be found here](content/faq.md).
+常见问题的答案可以[在此处](content/faq.md)找到。
 
+# 法律和许可
 
-# Legal & License
-
-Please [see here](content/legal.md) for details.
+有关详细信息，请[参见此处](content/legal.md)。
