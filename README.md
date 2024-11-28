@@ -11,7 +11,7 @@
 * **了解 Rust**（如果您有编程经验）。
 
 # 翻译声明
-翻译为GPT机翻，原项目由 ralfbiedert 及其贡献者们创建和维护。主页见public/index.html, 请克隆后查看。也可使用Zola构建修改。
+翻译为GPT机翻，原项目由 ralfbiedert 及其贡献者们创建和维护。请克隆后，使用`zola build`于public目录下查看index.html，也可使用`zola serve`进行本地开发。
 
 原始英文版本仓库地址：https://github.com/ralfbiedert/cheats.rs。
 
